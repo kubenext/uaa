@@ -1,0 +1,47 @@
+{
+  "generator-jhipster": {
+    "applicationType": "uaa",
+    "gitCompany": "",
+    "baseName": "uaa",
+    "packageName": "com.kubenext.uaa",
+    "packageFolder": "com/kubenext/uaa",
+    "serverPort": 9999,
+    "serviceDiscoveryType": false,
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "gatling",
+      "cucumber",
+      "protractor"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "zh-cn",
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "6.1.2",
+    "jwtSecretKey": "NGFhNTY0ZGU1ODRkZjY1MDhlN2I0ZTBiNjdmMjc3ZDU2ZWM2YmNkZTJmOWE1MzMwYjRlNmE4NjEyNDU1MDAyZTJjYjBiZDA4MGNkMzk2MDlhNjIxMmJiNjI2OGY3ODkwZDdiODQyNmE1YWFiYmE3NTdjZTBlN2JjMWY2OTllYjI=",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "skipClient": true
+  },
+  "git-provider": "GitHub",
+  "git-company": "kubenext",
+  "repository-name": "uaa"
+}
